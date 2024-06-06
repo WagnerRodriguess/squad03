@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --cor-fundo: #301341;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #9B65EC;
+    --cor-footer: #21022E;
+
+
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    box-sizing: border-box;
+    color: var(--cor-secundaria);
+    margin: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 0 56px 0 56px;
+
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+.cabecalho__pesquisa {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-fundo);
+    border-radius: 8px;
+    height: 44px;
+    width: 285px;
+    margin-right: 32px;
+}
+
+
+.cabecalho__botao1 {
+    width: 93px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: none;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    padding: 0;
+}
+
+.cabecalho__botao2 {
+    width: 93px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: var(--cor-terciaria);
+    border: none;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.cabecalho__botao1:hover{
+    background-color: var(--cor-terciaria);
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.principal__jogo1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.principal__lista__jogos {
+    width: 1440px;
+    display: flex;
+    
+}
+
+.principal__lista__jogos__pesquisa{
+    width: 1440px;
+    display: flex;
+    
+}
+
+.principal__lista__titulo {
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+
+.principal__lista__titulo__pesquisa {
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+
+.principal__jogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.principal__jogos__pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.principal__jogos__poster__nomes{
+    font-family: var(--fonte-primaria);
+}
+
+.principal__jogos__poster__nomes__pesquisa{
+    font-family: var(--fonte-primaria);
+}
+
+.principal__lista__jogos__nomes__pesquisa{
+    font-family: var(--fonte-primaria);
+}
+
+.rodape{
+    background-color: var(--cor-footer);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 124px;
+    border-top: solid 1px #F6F6F6;
+    margin-top: 80px;
+}
+
+.rodape2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1106px;
+    justify-content: space-between;
+}
+
+.rodape__infos{
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+}
+
+.rodape__links__botoes{
+    margin-right: 16px;
+}
+
+.rodape__pesquisa{
+    background-color: var(--cor-footer);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 124px;
+    border-top: solid 1px #F6F6F6;
+    margin-top: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}

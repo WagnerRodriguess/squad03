@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndieLabs</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/carrossel.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="./javascript/funcoes.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho"> 
+        <div class="cabecalho__imagem">
+            <a href="index.html"><img src="./assets/logo.png"></a>
+        </div>
+        <div class="cabecalho__login">
+ 
+            <input type="search" id="campoPesquisa" class="cabecalho__pesquisa" placeholder="Pesquisar" onkeypress="realizarPesquisa(event)">
+            <button onclick="window.location.href='login.html'" class="cabecalho__botao1"><img src="assets/User.png">Entrar</button>
+            <button onclick="window.location.href='cadastro.html'" class="cabecalho__botao2">Criar conta</button>
+        </div>
+    </header>
+
+    <main class="principal">
+        <a class="principal__jogo1" href="hollowknight.html"> <img src="assets/hollowknight.png"></a>
+        <div class="principal__lista__jogos">
+            <div>
+            <h2 class="principal__lista__titulo">Recomendado para você</h2>
+            </div>
+        </div>
+        <section class="carrossel">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+    
+                <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="celeste_pag.html"><img src="assets/celeste.png"
+                            alt=""></a>
+                    <a class="swiper-slide" href="projeczomboid_pag.html"><img src="assets/project.png"
+                            alt=""></a>
+                    <a class="swiper-slide" href="stardewvalley_pag.html"><img src="assets/stardew.png"
+                            alt=""></a>
+                    <a class="swiper-slide" href="limbo_pag.html"><img src="assets/limbo.png" alt=""></a>
+                    <a class="swiper-slide" href="undertale_pag.html"><img src="assets/undertale.png" alt=""></a>
+                    <a class="swiper-slide" href="bastion.html"><img src="assets/bastion.png" alt=""></a>
+                    <a class="swiper-slide" href="goose.html"><img src="assets/goose intro.png" alt=""></a>
+                    <a class="swiper-slide" href="shovel-knight.html"><img src="assets/shovel-knight.png" alt=""></a>
+                    <a class="swiper-slide" href="cuphead.html"><img src="assets/cuphead.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape2">
+            <div class="rodape__logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="rodape__infos">
+                <p>Copyright © 2023 Indie Labs |Todos os direitos reservados</p>
+            </div>
+            <div class="rodape__links">
+            <a class="rodape__links__botoes" href="index.html"> <img src="assets/botao_face.png" alt=""></a>
+            <a class="rodape__links__botoes" href="#"> <img src="assets/botao_twitter.png" alt=""></a>
+            <a class="rodape__links__botoes" href="#"> <img src="assets/botao_insta.png" alt=""></a>
+            <a class="rodape__links__botoes" href="#"> <img src="assets/botao_linkedin.png" alt=""></a>
+            <a class="rodape__links__botoes" href="#"> <img src="assets/botao_youtube.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 5,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>

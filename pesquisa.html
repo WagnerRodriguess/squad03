@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./javascript/funcoes.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho"> 
+        <div class="cabecalho__imagem">
+            <a href="index.html"><img src="./assets/logo.png"></a>
+        </div>
+        <div class="cabecalho__login">   
+            <input type="search" id="campoPesquisa" class="cabecalho__pesquisa" placeholder="Pesquisar" onkeypress="realizarPesquisa(event)">  
+            <button onclick="window.location.href='pesquisa.html'" class="cabecalho__botao2"><img src="assets/User.png">Bem vindo, Xyz.</button>
+            
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="principal__lista__jogos__pesquisa">
+            <div>
+            <h2 class="principal__lista__titulo__pesquisa">Você pesquisou por:</h2>
+            </div>
+        </div>
+        <div class="principal__jogos__pesquisa">
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="celeste_pag.html"> <img src="assets/celeste.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo1">Celeste</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="stardewvalley_pag.html"> <img src="assets/stardew.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo2">Stardew Valley</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="projeczomboid_pag.html"> <img src="assets/project.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo3">Project Zomboid</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="limbo_pag.html"> <img src="assets/limbo.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo4">Limbo</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="undertale_pag.html"> <img src="assets/undertale.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo5">Undertale</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="goose.html"> <img src="assets/goose intro.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo6">Untitled Goose Game</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="bastion.html"> <img src="assets/bastion.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo7">Bastion</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="cuphead.html"> <img src="assets/Cuphead logo.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo8">Cuphead</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="shovel-knight.html"> <img src="assets/shovel-knight.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo9">Shovel Knight</p>
+            </div>
+            <div>
+                <a class="principal__lista__jogos__poster__pesquisa" href="gris.html"> <img src="assets/Gris icom.png" alt=""></a>
+                <p class="principal__lista__jogos__nomes__pesquisa" id="nomeJogo9">Gris</p>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape__pesquisa">
+        <div class="rodape2">
+            <div class="rodape__logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="rodape__infos">
+                <p>Copyright © 2023 Indie Labs |Todos os direitos reservados</p>
+            </div>
+            <div class="rodape__links">
+            <a class="rodape__links__botoes" href="index.html"> <img src="assets/botao_face.png" alt=""></a>
+            <a class="rodape__links__botoes" href="#"> <img src="assets/botao_twitter.png" alt=""></a>
+            <a class="rodape__links__botoes" href="#"> <img src="assets/botao_insta.png" alt=""></a>
+            <a class="rodape__links__botoes" href="#"> <img src="assets/botao_linkedin.png" alt=""></a>
+            <a class="rodape__links__botoes" href="#"> <img src="assets/botao_youtube.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>

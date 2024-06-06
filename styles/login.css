@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --cor-fundo: #301341;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #9B65EC;
+    --cor-footer: #21022E;
+
+
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    box-sizing: border-box;
+    color: var(--cor-secundaria);
+    margin: 0;
+}
+
+main{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.poster{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container__login{
+    margin: 3.625rem 0 0 5.375rem;
+}
+
+.container__login__texto{
+    color: black;
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 8.75rem;
+}
+
+.container__login__input{
+    display: flex;
+    width: 360px;
+    height: 48px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #F1F3F7;
+    background: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+    margin-bottom: 1rem;
+}
+
+.container__login__input2{
+    display: flex;
+    width: 360px;
+    height: 48px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #F1F3F7;
+    background: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+}
+
+.container__login__input::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    background-position: 1em;
+}
+
+.container__login__input2::placeholder {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    background-position: 1em;
+}
+
+.container__login__esqsenha{
+    color:#00F;
+    text-align: right;
+    text-decoration: underline;
+    font-family: var(--fonte-primaria);
+}
+
+.container__login__botao{
+    width: 366px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: var(--cor-terciaria);
+    border: none;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.container__login__botaogoogle{
+    width: 366px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #333333;
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-primaria);
+    margin-top: 32px;
+}
+
+.container__login__botaogoogle__img{
+    margin-right: 0.344rem;
+}
+
+.container__login__cadastro{
+    color: black;
+}
+
+.rodape{
+    background-color: var(--cor-footer);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 124px;
+    border-top: solid 1px #F6F6F6;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1106px;
+    justify-content: space-between;
+}
+
+.rodape__infos{
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+}
+
+.rodape__links__botoes{
+    margin-right: 16px;
+}
+
